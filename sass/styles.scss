@@ -1,5 +1,72 @@
+@import 'partials/settings';
+@import '../bower_components/foundation/scss/foundation/components/grid';
+@import '../bower_components/foundation/scss/foundation/components/block-grid';
+@import '../bower_components/foundation/scss/foundation/components/buttons';
+@import '../bower_components/foundation/scss/foundation/components/forms';
+@import '../bower_components/foundation/scss/foundation/components/icon-bar';
+@import '../bower_components/foundation/scss/foundation/components/reveal';
+@import '../bower_components/foundation/scss/foundation/components/top-bar';
+@import '../bower_components/foundation/scss/foundation/components/visibility';
+
+
+
 body {
-  h1 {
-    background-color: #fff;
+  background-color:#AB4423;
+  height:100%;
+}
+
+h1 {
+  background-color: #fff;
+}
+
+.toplogo{
+  height:65px;
+  background:white;
+  width:100%;
+}
+
+.nav{
+  height: 45px;
+  background: #3A3A3C;
+  width:100%;
+  margin-bottom: 10px;
+
+  @media (min-width:601px) {
+    margin-bottom: 40px;
   }
+}
+
+.medium{
+  background:white;
+  padding: 20px;
+  border: 3px solid teal;
+}
+
+.small{
+  background: gray;
+  padding: 30px;
+  border: 3px solid teal;
+}
+
+.plusbox{
+  float:right;
+  width:30px;
+  height:30px;
+  background: white;
+  border: 2px solid orange;
+  margin: 19px;
+}
+
+.plus{
+  color: red;
+  font-size: 30px;
+  float: right;
+  padding: 0;
+  margin: 0px;
+}
+
+.stickyfooter{
+  height:50;
+  width:100%;
+  background: #3A3A3C;
 }
