@@ -118,7 +118,23 @@ h1 {
   float:center;
   display:inline-block;
 }
+
 .logo{
-  height:50;
-  margin-left:50%;
+display:inline-block;
+
+height:50px;
+width:49.7%;
+}
+
+.fblogo{
+  display:inline-block;
+  margin-right: 10px;
+  margin-left: 96%;
+  margin-top: 13px;
+}
+
+.iglogo{
+  display:inline-block;
+  margin-left: 1%;
+  margin-top: 13px;
 }
