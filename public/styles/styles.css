@@ -2916,15 +2916,16 @@ html, body {
   height: 65px;
   background: white;
   width: 100%; }
-  @media (min-width: 601px) {
+  @media (min-width: 641px) {
     .toplogo {
       background-image: url(/assets/logo.svg);
       background-position: center;
       background-repeat: no-repeat; } }
 
-@media (min-width: 601px) {
+@media (min-width: 641px) {
   h1 {
     background-image: url(/assets/header_bg.svg);
+    height: 60px;
     background-position: center;
     background-repeat: no-repeat; } }
 
@@ -2940,9 +2941,12 @@ html, body {
   background: #3A3A3C;
   width: 100%;
   margin-bottom: 10px; }
-  @media (min-width: 601px) {
+  @media (min-width: 641px) {
     .nav {
       margin-bottom: 40px; } }
+
+.navbars {
+  display: inline-block; }
 
 .medium {
   background: white;
@@ -2955,20 +2959,19 @@ html, body {
   border: 3px solid teal; }
 
 .plusbox {
+  background-image: url(/assets/plusbox.png);
   float: right;
-  width: 30px;
-  height: 30px;
-  background: transparent;
-  border: 2px solid orange;
-  margin: 19px; }
-
-.plus {
-  color: red;
-  font-size: 41px;
-  float: right;
-  padding: 0;
-  margin: 0px;
-  margin-right: -46px; }
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  margin-right: 15px; }
+  .plusbox:hover {
+    background-image: url(/assets/plusbox_hover.png); }
+  @media (min-width: 641px) {
+    .plusbox {
+      margin-top: -45px; } }
 
 .content:after {
   height: 50px; }
